@@ -43,6 +43,8 @@ void setup()
   pinMode(greenPin, OUTPUT);
   pinMode(bluePin, OUTPUT);
   pinMode(switchPin, INPUT_PULLUP);
+  pinMode(3, OUTPUT);
+  digitalWrite(3, LOW);
   Serial.begin(115200);
   /*
   Pin 2 will be the "wake button". Due to uC limitations,
